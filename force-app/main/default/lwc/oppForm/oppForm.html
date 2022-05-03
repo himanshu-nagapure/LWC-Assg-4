@@ -1,0 +1,15 @@
+<template>
+    <lightning-card>
+    <div class="slds-m-around_small">
+        <lightning-record-form 
+        object-api-name="Opportunity"
+        layout-type="Full"
+        columns="2"
+        mode="edit"
+        onerror={handleError}
+        onsuccess={handleSuccess}
+        onsubmit={handleSubmit}
+        ></lightning-record-form>
+    </div>
+</lightning-card>
+</template>
